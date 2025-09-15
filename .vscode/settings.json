@@ -1,0 +1,20 @@
+{
+    "python.languageServer": "Pylsp",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length=120"],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.defaultInterpreterPath": "python",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "python.linting.pylintArgs": [
+        "--disable=C0114,C0115,C0116",
+        "--max-line-length=120"
+    ]
+}
